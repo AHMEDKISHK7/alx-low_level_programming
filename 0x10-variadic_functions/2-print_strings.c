@@ -9,6 +9,7 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+	char *str;
 	unsigned int i;
 	va_list ap;
 
